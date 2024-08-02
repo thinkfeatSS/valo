@@ -10,8 +10,8 @@ export default function Home() {
     console.log('Button clicked');
   };
   return (
-    <main className="bg-black text-white min-h-screen flex  justify-center md:justify-start xl:justify-center">
-      <Image src="/images/bg.png" alt='not found' width={1280} height={832} className="fixed left-[37%] h-screen z-0" />
+    <main className="bg-black text-white min-h-screen flex  justify-center md:justify-start xl:justify-center relative">
+      <Image src="/images/bg.png" alt='not found' width={1280} height={832} className="absolute left-[37%] h-screen z-0" />
       {/* bg */}
       {/* main */}
       <div className="flex items-center justify-center md:items-start md:justify-start gap-10 flex-col md:flex-row z-10 mx-10">

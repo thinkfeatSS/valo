@@ -19,3 +19,19 @@
       pointer-events: none;
     }
   }
+
+  .custom-gradient {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 34%, rgba(0, 0, 0, 0.5));
+  }
+  .side-gradient-one {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  }
+  .side-gradient-two {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 9%, rgba(0, 0, 0, 1));
+  }
+  .side-gradient-three {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 9%, rgba(0, 0, 0, 1));
+  }
+  .side-gradient-four {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, 0.5) 97%);
+  }
