@@ -10,7 +10,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ label, onClick,icon: Icon  }) => {
   return (
-    <button onClick={onClick} className='text-white flex items-center justify-start font-black shadow-glow p-2 gap-4 m-2 w-40'>
+    <button onClick={onClick} className='text-white flex items-center justify-start font-black shadow-glow p-2 gap-4 m-2 w-40 hover:bg-white hover:text-black'>
         {Icon && <Icon className="w-4 h-4 " />} {/* Render icon if provided */}{label}
     </button>
   );
