@@ -4,27 +4,18 @@ import Map from "./Map";
 import Button from "./Button";
 import { FaPlay } from "react-icons/fa";
 import Slider from "./Slider";
-// import { GoArrowRight } from "react-icons/go";
+
 export default function Home() {
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    console.log('Button clicked');
-  };
+
   return (
-    <main className="bg-black text-white min-h-screen flex  justify-center md:justify-start xl:justify-center relative">
-      <Image src="/images/bg.png" alt='not found' width={1280} height={832} className="absolute left-[37%] h-screen z-0" />
-      {/* bg */}
-      {/* main */}
-      <div className="flex items-center justify-center md:items-start md:justify-start gap-10 flex-col md:flex-row z-10 mx-10">
-        {/* right */}
-        <div className="flex flex-col items-center justify-center gap-8 mt-[13%]">
-          <Button label="ASCENT" onClick={handleClick} icon={FaPlay} />
-          <Slider />
-        </div>
-        {/* left */}
-        <Map />
-
+    <main className=" flex flex-col items-center justify-center md:flex-row lg:justify-start md:items-start lg:justify-center w-screen">
+      <Image src="/images/bg.png" alt='not found' width={1280} height={832} className="fixed top-0  h-full  -z-10 left-[37%]" />
+      <div className="absolute w-full h-full top-0 side-gradient-five -z-10 md:hidden"></div>
+      <div className="flex flex-col items-center gap-10 md:flex-col-reverse md:gap-28 pt-14 md:pt-28">
+        <Slider />
+        <Button label="ASCENT" onClick={()=>{console.log("Button clicked")}} icon={FaPlay} />
       </div>
-
+      <Map />
     </main>
   );
 }

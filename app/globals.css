@@ -27,11 +27,14 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
   }
   .side-gradient-two {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 9%, rgba(0, 0, 0, 1));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 9%, rgba(0, 0, 0, 1));
   }
   .side-gradient-three {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0) 9%, rgba(0, 0, 0, 1));
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1));
   }
   .side-gradient-four {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, 0.5) 97%);
+  }
+  .side-gradient-five {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0));
   }
