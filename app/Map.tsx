@@ -5,7 +5,7 @@ import { FaPlusCircle,FaMinusCircle } from "react-icons/fa";
 
 
 const Map = () => {
-  const [value, setValue] = useState(50);
+  const [value, setValue] = useState(0);
   const min = 0;
   const max = 100;
   const step = 10; // Define the step size
